@@ -135,3 +135,23 @@ ul {
     align-items: center;
     justify-content: center;
 }
+.scroll-left-and-right {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    body:not(.close) {
+        font-size: 0.8rem;
+    }
+    .selection-box {
+        grid-template-columns: repeat(3, 100px);
+    }
+    .scroll-left-and-right {
+        display: block;
+        color: #FAFAFA;
+        text-align: center;
+    }
+    .category {
+        padding: 3px;
+    }
+}
