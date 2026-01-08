@@ -135,7 +135,6 @@ ul {
     align-items: center;
     width: 30%;
     height: auto;
-    max-height: 100px;
 }
 .scroll-left-and-right {
     display: none;
@@ -155,5 +154,8 @@ ul {
     }
     .category {
         padding: 3px;
+    }
+    .cocktail-image {
+        max-width: 80px;
     }
 }
