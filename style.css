@@ -134,6 +134,9 @@ ul {
     display: flex;
     align-items: center;
     width: 30%;
+}
+img {
+    width: 100%;
     height: auto;
 }
 .scroll-left-and-right {
