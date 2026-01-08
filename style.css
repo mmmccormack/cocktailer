@@ -133,7 +133,8 @@ ul {
 .cocktail-image {
     display: flex;
     align-items: center;
-    justify-content: center;
+    width: 30%;
+    height: auto;
 }
 .scroll-left-and-right {
     display: none;

@@ -188,6 +188,7 @@ const displayCocktail = cocktail => {
     document.querySelector('.selection-area').style.display = "none";
     document.querySelector('.chosen-cocktail').style.display = "flex";
     document.querySelector('.cocktail-name').innerHTML = cocktail;
+    document.querySelector('.cocktail-image').innerHTML = `<img src="${cocktail}.svg" alt />`;
     const windowList = document.querySelector('.ingredients-list')
     windowList.innerHTML = '';
     const ingredientsList = cocktails[cocktail].ingredients;
